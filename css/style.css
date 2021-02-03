@@ -1,0 +1,310 @@
+body
+{
+    cursor: pointer;
+}
+/*Start Navbar*/
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+    padding-top: 20px;
+    padding-right: 14px;
+}
+
+.logo
+{
+    width: 25%;
+
+}
+.bg-gry
+{
+    background-color: #f7f7f7;
+}
+.box-shadow
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.font-big
+{
+    font-size: 100px;
+    font-weight: 800;
+}
+#home .bg-1
+{
+    background-image: url(../images/bg-image-28.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+#home .bg-2
+{
+    background-image: url(../images/bg-image-29.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#home .overLay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.35);
+}
+
+.btn-color {
+    color: inherit;
+    background-color: #00c3da;
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+#home .btn-slider
+{
+    color: #fff;
+    padding: 0 25px;
+    border: 2px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+}
+#home .btn-slider:hover
+{
+    color: black;
+    background-color: #fff;
+}
+.carousel-item ,.carousel-inner ,.caption
+{
+    height: 100%;
+}
+.header-icon
+{
+    z-index: 32;
+    top: 45%;
+}
+.arrow-icon
+{
+    padding: 13px 23px;
+    border: 1px solid #fff;
+    font-size: 19px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.arrow-icon:hover
+{
+    background-color: #fff;
+    color: black;
+
+}
+
+
+/*Start Team*/
+#team .social-icons ul
+{
+    padding-left: 0;
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+}
+#team .team-item
+{
+    overflow: hidden;
+}
+#team .team-content
+{
+    padding-left: 0;
+    color: #fff;
+    padding-top: 45%;
+    padding-left: 20px;
+}
+#team .social-icons ul li 
+{
+    padding-right: 14px;
+}
+
+#team .team-item:hover .overlay-team
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 195, 218, 0.9);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 1s;
+}
+@keyframes overlay-team
+{
+    0%{top: 20%;}
+    20%{top: 40%;}
+    40%{top: 60%;}
+    60%{top: 80%;}
+    100%{top: 100%;}
+}
+
+
+
+
+/*Start Services*/
+#services
+{
+    background-color: #1f1f1fc2;
+}
+#services .servise-icon
+{
+    color: rgb(0, 173, 159);
+    animation-name: example;
+    animation-duration: 2s;
+}
+#services .servise-icon h4
+{
+    padding-top: 17px;
+    font-size: 13px;
+}
+
+#services .service-content ul
+
+{
+    list-style-type: none;
+}
+#services .service-content ul li
+{
+    padding: 7px;
+}
+
+#services .service-content ul li .service-icons
+{
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    font-size: 9px;
+    padding: 2px;
+    margin-right: 7px;
+    transition: all 5                                                                                                                                                                      s;
+}
+
+
+/*Start Price*/
+#price .price
+{
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#price h4
+{
+    font-size: 13px;
+}
+
+
+
+/*Start Contact*/
+
+
+#contact .map-overLay
+{
+    
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    height: 100%;
+}
+#contact iframe
+{
+    border: 0;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*Start Testimonial*/
+
+
+.carousel
+{
+  height: 100vh;
+  
+}
+.carousel img
+{
+    width: 15%;
+    position: absolute;
+    width: 15%;
+    bottom: 86%;
+    left: 42.5%;
+
+}
+
+
+.carousel-inner-background
+{
+  height: 100vh;
+  
+}
+.carousel-inner
+{
+  height: 100%;
+  display: flex;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 9px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+.carousel-caption
+{
+  bottom: 30%;
+}
+
+
+.carousel-indicators
+{
+  bottom: 26%;
+}
+
+
+
+
+
+
+/* #testimonial .testimonial-item
+{
+    position: relative;
+}
+
+#testimonial .testimonial-item img
+{
+    position: absolute;
+    left: 41%;
+    width: 18%;
+    bottom: 84%;
+}
+.py-10
+{
+    padding-top: 10rem ;
+    padding-bottom: 10rem ;
+} */
+
